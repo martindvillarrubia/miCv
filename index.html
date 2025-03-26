@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Martin Ezequiel Diaz Villarrubia - Jr Dev</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1 data-lang="name">Martin Ezequiel Diaz Villarrubia</h1>
+      <p data-lang="title">Desarrollador de Software Junior | Diseñador | Pensador Creativo</p>
+      <div class="lang-switcher">
+        <select id="lang-select">
+          <option value="es">Español</option>
+          <option value="en">English</option>
+        </select>
+      </div>
+    </header>
+
+    <section class="container">
+      <div class="sidebar animate-on-scroll">
+        <img src="https://placehold.co/150x150/2c3e50/3498db?text=M" alt="Martin Ezequiel Diaz Villarrubia" class="profile-pic" />
+        <h2 data-lang="about-me">Sobre Mí</h2>
+        <p data-lang="about-me-text">
+          Un individuo apasionado con amor por la programación, el diseño y la resolución de problemas. Busco crear experiencias digitales impactantes.
+        </p>
+
+        <h2 data-lang="skills">Habilidades</h2>
+        <div class="skills">
+          <div class="skill">
+            <span data-lang="html-css">HTML y CSS</span>
+            <div class="progress-bar">
+              <div class="progress" data-width="90%"></div>
+            </div>
+          </div>
+          <div class="skill">
+            <span data-lang="javascript">JavaScript</span>
+            <div class="progress-bar">
+              <div class="progress" data-width="75%"></div>
+            </div>
+          </div>
+          <div class="skill">
+            <span data-lang="responsive-design">Diseño Responsivo</span>
+            <div class="progress-bar">
+              <div class="progress" data-width="85%"></div>
+            </div>
+          </div>
+          <div class="skill">
+            <span data-lang="problem-solving">Resolución de Problemas</span>
+            <div class="progress-bar">
+              <div class="progress" data-width="80%"></div>
+            </div>
+          </div>
+        </div>
+
+        <h2 data-lang="contact">Contacto</h2>
+        <div class="contact-buttons">
+          <button class="contact-btn" id="contact-btn" data-lang="contact-me">Contáctame</button>
+          <button class="linkedin-btn"><a href="https://linkedin.com/in/martin-ezequiel-diaz-villarrubia-b1a79a256/" target="_blank" data-lang="linkedin">LinkedIn</a></button>
+        </div>
+      </div>
+
+      <div class="main-content animate-on-scroll">
+        <h2 data-lang="experience">Experiencia</h2>
+        <div class="job animate-on-scroll">
+          <h3 class="collapsible-title" data-lang="job1-position">Desarrollador Junior</h3>
+          <div class="collapsible-content">
+            <p data-lang="job1-company">Instituto de la Vivienda de la Ciudad</p>
+            <p data-lang="job1-date"><em>Junio 2023 - Presente</em></p>
+            <ul>
+              <li data-lang="job1-desc1">Apoyé un sistema de administración de créditos MSSQL y automatizé tareas rutinarias usando Python.</li>
+              <li data-lang="job1-desc2">Colaboré con un equipo para entregar proyectos a tiempo.</li>
+            </ul>
+          </div>
+          <h3 class="collapsible-title" data-lang="job2-position">Pasante Desarrollador</h3>
+          <div class="collapsible-content">
+            <p data-lang="job2-company">EXO SA</p>
+            <p data-lang="job2-date"><em>Mayo 2022 - Agosto 2022</em></p>
+            <ul>
+              <li data-lang="job2-desc1">Pasantía proporcionada por asignación escolar. Departamento de desarrollo.</li>
+              <li data-lang="job2-desc2">Creé una API para normalización y visualización de datos usando FastAPI y ClickHouse.</li>
+            </ul>
+          </div>
+          <h3 class="collapsible-title" data-lang="job3-position">Pasante en Ciencia de Datos</h3>
+          <div class="collapsible-content">
+            <p data-lang="job3-company">Siemens Energy</p>
+            <p data-lang="job3-date"><em>Abril 2025 - Presente</em></p>
+            <ul>
+              <li data-lang="job3-desc1">Parte del Sistema Dual propuesto por AHK.</li>
+              <li data-lang="job3-desc2">Análisis de datos, KPI, establecimiento de objetivos y otras tareas.</li>
+            </ul>
+          </div>
+        </div>
+
+        <h2 data-lang="education">Educación</h2>
+        <div class="education animate-on-scroll">
+          <h3 class="collapsible-title" data-lang="edu1-degree">Técnico en Computación</h3>
+          <div class="collapsible-content">
+            <p data-lang="edu1-institution">Escuela Técnica Número 1 "Ingeniero Otto Krause"</p>
+            <p data-lang="edu1-date"><em>Graduado: Diciembre 2022</em></p>
+          </div>
+          <h3 class="collapsible-title" data-lang="edu2-degree">Licenciatura en Ciencias de la Computación</h3>
+          <div class="collapsible-content">
+            <p data-lang="edu2-institution">Universidad de Buenos Aires</p>
+            <p data-lang="edu2-date"><em>En curso</em></p>
+          </div>
+          <h3 class="collapsible-title" data-lang="edu3-degree">Técnico Superior en Ciencia de Datos</h3>
+          <div class="collapsible-content">
+            <p data-lang="edu3-institution">AHK Deutsch-Argentinische Industrie und Handleskammer</p>
+            <p data-lang="edu3-date"><em>Graduación: Diciembre 2027</em></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Form Popup -->
+    <div id="contact-form-popup" class="form-popup">
+      <form action="https://formspree.io/f/mpwplnov" method="POST" class="contact-form">
+        <h3 data-lang="form-title">Envíame un mensaje</h3>
+        <input type="email" name="email" placeholder="Tu correo" required>
+        <textarea name="message" placeholder="Tu mensaje" required></textarea>
+        <button type="submit" data-lang="form-submit">Enviar</button>
+        <button type="button" id="close-form-btn" data-lang="form-close">Cerrar</button>
+      </form>
+    </div>
+
+    <footer>
+      <p data-lang="footer">© 2025 Martin Ezequiel Diaz Villarrubia. Todos los derechos reservados.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
