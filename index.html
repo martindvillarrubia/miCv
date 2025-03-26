@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="styles.css" />
     <link rel="icon" type="image/x-icon" href="favicon.ico" />
   </head>
-  <body>
+  <body class="dark-mode">
     <header>
       <h1 data-lang="name">Martin Ezequiel Diaz Villarrubia</h1>
       <p data-lang="title">Desarrollador de Software Junior</p>
@@ -17,6 +17,7 @@
           <option value="en">English</option>
         </select>
       </div>
+      <button id="theme-toggle" class="theme-btn">☀️</button>
     </header>
 
     <section class="container">
@@ -24,35 +25,26 @@
         <img src="android-chrome-192x192.png" alt="Martin Ezequiel Diaz Villarrubia" class="profile-pic" />
         <h2 data-lang="about-me">Sobre Mí</h2>
         <p data-lang="about-me-text">
-          Soy una persona apasionada por la programación, el diseño y la resolución de problemas. Busco crecer, resolver problemas y explorar nuevas tecnologías.
+          Un individuo apasionado con amor por la programación, el diseño y la resolución de problemas. Busco crear experiencias digitales impactantes.
         </p>
 
         <h2 data-lang="skills">Habilidades</h2>
-        <div class="skills">
-          <div class="skill">
-            <span data-lang="html-css">HTML y CSS</span>
-            <div class="progress-bar">
-              <div class="progress" data-width="90%"></div>
+          <div class="skills">
+            <div class="skill">
+                <img src="html.png" alt="HTML" class="skill-icon" data-lang="html">
             </div>
-          </div>
-          <div class="skill">
-            <span data-lang="javascript">JavaScript</span>
-            <div class="progress-bar">
-              <div class="progress" data-width="75%"></div>
+            <div class="skill">
+                <img src="css.png" alt="CSS" class="skill-icon" data-lang="css">
             </div>
-          </div>
-          <div class="skill">
-            <span data-lang="responsive-design">Python</span>
-            <div class="progress-bar">
-              <div class="progress" data-width="85%"></div>
+            <div class="skill">
+                <img src="js.png" alt="JavaScript" class="skill-icon" data-lang="javascript">
             </div>
-          </div>
-          <div class="skill">
-            <span data-lang="problem-solving">Java</span>
-            <div class="progress-bar">
-              <div class="progress" data-width="80%"></div>
+            <div class="skill">
+                <img src="python.png" alt="Python" class="skill-icon" data-lang="python">
             </div>
-          </div>
+            <div class="skill">
+                <img src="java.png" alt="Java" class="skill-icon" data-lang="java">
+            </div>
         </div>
 
         <h2 data-lang="contact">Contacto</h2>
@@ -68,7 +60,7 @@
           <h3 class="collapsible-title" data-lang="job1-position">Desarrollador Junior</h3>
           <div class="collapsible-content">
             <p data-lang="job1-company">Instituto de la Vivienda de la Ciudad</p>
-            <p data-lang="job1-date"><em>Junio 2023 - Febrero 2025</em></p>
+            <p data-lang="job1-date"><em>Junio 2023 - Presente</em></p>
             <ul>
               <li data-lang="job1-desc1">Apoyé un sistema de administración de créditos MSSQL y automatizé tareas rutinarias usando Python.</li>
               <li data-lang="job1-desc2">Colaboré con un equipo para entregar proyectos a tiempo.</li>
@@ -117,7 +109,7 @@
 
     <!-- Contact Form Popup -->
     <div id="contact-form-popup" class="form-popup">
-      <form action="https://formspree.io/f/mpwplnov" method="POST" class="contact-form">
+      <form action="https://formspree.io/f/your-id" method="POST" class="contact-form">
         <h3 data-lang="form-title">Envíame un mensaje</h3>
         <input type="email" name="email" placeholder="Tu correo" required>
         <textarea name="message" placeholder="Tu mensaje" required></textarea>
@@ -126,8 +118,15 @@
       </form>
     </div>
 
-    <footer>
-      <p data-lang="footer">© 2025 Martin Ezequiel Diaz Villarrubia. Todos los derechos reservados.</p>
+      <footer>
+        <p data-lang="footer">© 2025 Martin Ezequiel Diaz Villarrubia. Todos los derechos reservados.</p>
+        <div class="attributions">
+            <a href="https://www.flaticon.com/free-icons/html" title="html icons" target="_blank">HTML by Pixel perfect</a>
+            <a href="https://www.flaticon.com/free-icons/css-3" title="css 3 icons" target="_blank">CSS by Freepik</a>
+            <a href="https://www.flaticon.com/free-icons/javascript" title="javascript icons" target="_blank">JS by Freepik</a>
+            <a href="https://www.flaticon.com/free-icons/python-file" title="python file icons" target="_blank">Python by Flat Icons</a>
+            <a href="https://www.flaticon.com/free-icons/java" title="java icons" target="_blank">Java by Freepik</a>
+        </div>
     </footer>
     <script src="script.js"></script>
   </body>
