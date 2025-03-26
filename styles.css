@@ -65,11 +65,11 @@ header p {
 .profile-pic {
     width: 150px;
     height: 150px;
-    border-radius: 50%;
+    /*border-radius: 50%; */
     margin: 0 auto 1.5rem;
     display: block;
     object-fit: cover;
-    border: 4px solid #3498db;
+    /*border: 4px solid #3498db;*/
 }
 
 .main-content {
