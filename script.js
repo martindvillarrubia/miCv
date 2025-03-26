@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", () => {
     // Language translations
     const translations = {
         en: {
-            "title": "Junior Software Developer | Designer | Creative Thinker",
+            "title": "Junior Software Developer",
             "about-me": "About Me",
             "about-me-text": "A passionate individual with a love for coding, design, and problem-solving. Looking to grow, solve problems and explore new technologies.",
             "skills": "Skills",
@@ -45,7 +45,7 @@ document.addEventListener("DOMContentLoaded", () => {
             "footer": "© 2025 Martin Ezequiel Diaz Villarrubia. All rights reserved."
         },
         es: {
-            "title": "Desarrollador de Software Junior | Diseñador | Pensador Creativo",
+            "title": "Desarrollador de Software Junior",
             "about-me": "Sobre Mí",
             "about-me-text": "Soy una persona apasionada por la programación, el diseño y la resolución de problemas. Busco crecer, resolver problemas y explorar nuevas tecnologías.",
             "skills": "Habilidades",
