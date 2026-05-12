@@ -67,7 +67,7 @@ document.addEventListener("DOMContentLoaded", () => {
             experience: "Experiencia",
             "job1-position": "Desarrollador Junior",
             "job1-company": "Instituto de la Vivienda de la Ciudad",
-            "job1-date": "Junio 2023 - Presente",
+            "job1-date": "Junio 2023 - Enero 2025",
             "job1-desc1":
                 "Apoyé a un equipo de soporte de un sistema de administración de créditos MSSQL.",
             "job1-desc2": "Creé múltiples automatizaciones para el sistema utilizando Python.",
