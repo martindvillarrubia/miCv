@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", () => {
             title: "Junior Software Developer",
             "about-me": "About Me",
             "about-me-text":
-                "A passionate individual with a love for coding, design, and problem-solving. Looking to create impactful digital experiences.",
+                "A passionate individual with a love for coding, design, Artificial Intelligence and problem-solving.",
             skills: "Skills",
             "html-css": "HTML & CSS",
             javascript: "JavaScript",
@@ -19,10 +19,10 @@ document.addEventListener("DOMContentLoaded", () => {
             experience: "Experience",
             "job1-position": "Junior Developer",
             "job1-company": "Instituto de la Vivienda de la Ciudad",
-            "job1-date": "June 2023 - Present",
+            "job1-date": "June 2023 - January 2025",
             "job1-desc1":
-                "Supported a credit administration MSSQL System and automated routine tasks using Python.",
-            "job1-desc2": "Collaborated with a team to deliver projects on time.",
+                "Supported a credit administration MSSQL System.",
+            "job1-desc2": "Automated multiple System-Related Tasks with Python.",
             "job2-position": "Developer Intern",
             "job2-company": "EXO SA",
             "job2-date": "May 2022 - August 2022",
@@ -34,7 +34,7 @@ document.addEventListener("DOMContentLoaded", () => {
             "job3-company": "Siemens Energy",
             "job3-date": "April 2025 - Present",
             "job3-desc1": "Part of the Dual System proposed by AHK.",
-            "job3-desc2": "Data Analytics, KPI, objective setting and other tasks.",
+            "job3-desc2": "Data Analytics, KPIs, objective setting and prediction model optimizations.",
             education: "Education",
             "edu1-degree": "Computer Technician",
             "edu1-institution": "Escuela Técnica Número 1 'Ingeniero Otto Krause'",
@@ -52,7 +52,7 @@ document.addEventListener("DOMContentLoaded", () => {
             title: "Desarrollador de Software Junior",
             "about-me": "Sobre Mí",
             "about-me-text":
-                "Un individuo apasionado con amor por la programación, el diseño y la resolución de problemas. Busco crear experiencias digitales impactantes.",
+                "Un individuo apasionado con amor por la programación, el diseño, la Inteligencia Artificial y la resolución de problemas.",
             skills: "Habilidades",
             "html-css": "HTML y CSS",
             javascript: "JavaScript",
@@ -69,13 +69,13 @@ document.addEventListener("DOMContentLoaded", () => {
             "job1-company": "Instituto de la Vivienda de la Ciudad",
             "job1-date": "Junio 2023 - Presente",
             "job1-desc1":
-                "Apoyé un sistema de administración de créditos MSSQL y automatizé tareas rutinarias usando Python.",
-            "job1-desc2": "Colaboré con un equipo para entregar proyectos a tiempo.",
+                "Apoyé a un equipo de soporte de un sistema de administración de créditos MSSQL.",
+            "job1-desc2": "Creé múltiples automatizaciones para el sistema utilizando Python.",
             "job2-position": "Pasante Desarrollador",
             "job2-company": "EXO SA",
             "job2-date": "Mayo 2022 - Agosto 2022",
             "job2-desc1":
-                "Pasantía proporcionada por asignación escolar. Departamento de desarrollo.",
+                "Pasantía proporcionada por Prácticas Profesionalizantes. Departamento de desarrollo.",
             "job2-desc2":
                 "Creé una API para normalización y visualización de datos usando FastAPI y ClickHouse.",
             "job3-position": "Pasante en Ciencia de Datos",
@@ -83,7 +83,7 @@ document.addEventListener("DOMContentLoaded", () => {
             "job3-date": "Abril 2025 - Presente",
             "job3-desc1": "Parte del Sistema Dual propuesto por AHK.",
             "job3-desc2":
-                "Análisis de datos, KPI, establecimiento de objetivos y otras tareas.",
+                "Análisis de datos, KPI, establecimiento de objetivos y optimizaciones de modelos de predicción.",
             education: "Educación",
             "edu1-degree": "Técnico en Computación",
             "edu1-institution": "Escuela Técnica Número 1 'Ingeniero Otto Krause'",
