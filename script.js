@@ -45,7 +45,7 @@ document.addEventListener("DOMContentLoaded", () => {
             "edu3-degree": "Superior Data Science Technician",
             "edu3-institution":
                 "AHK Deutsch-Argentinische Industrie und Handleskammer",
-            "edu3-date": "Graduating: December 2027",
+            "edu3-date": "Graduating: December 2026",
             footer: "© 2025 Martin Ezequiel Diaz Villarrubia. All rights reserved.",
         },
         es: {
@@ -94,7 +94,7 @@ document.addEventListener("DOMContentLoaded", () => {
             "edu3-degree": "Técnico Superior en Ciencia de Datos",
             "edu3-institution":
                 "AHK Deutsch-Argentinische Industrie und Handleskammer",
-            "edu3-date": "Graduación: Diciembre 2027",
+            "edu3-date": "Graduación: Diciembre 2026",
             footer:
                 "© 2025 Martin Ezequiel Diaz Villarrubia. Todos los derechos reservados.",
         },
